@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.block {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+.header, .footer {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.line {
+    background-color: darkblue;
+    color: aliceblue;
+    margin: 10px 10px 10px 10px;
+}
+
+.b2-6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2-3, .box5-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.b8-13 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box8-10, .box11-13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.b15-18 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box15-18, .box16-17 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box15-18 {
+    gap: 35%;
+}

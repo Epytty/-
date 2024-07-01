@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <p>Тарима Даниил Игоревич</p>
+    <a href="youtube.com">Мой любимый сайт</a>
+    <img class="favImg" src="https://koshka.top/uploads/posts/2021-11/1636776653_19-koshka-top-p-koshki-rizhikh-kotyat-pushistikh-malenkikh-27.jpg">
+
+    <div class="formContainer">
+        <div class="item1">
+            <label for="nameInput">Ваше имя</label>
+            <input id="nameInput" name="nameInput" type="text" required>
+        </div>
+        <div class="item2">
+            <label for="emailInput">Email адрес</label>
+            <input id="emailInput" name="emailInput" type="email" required>
+        </div>
+        <div class="item3">
+            <label for="numberInput">Телефон</label>
+            <input id="numberInput" name="numberInput" type="number" required>
+        </div>
+        <div class="item4">
+            <label for="messegeInput">Текст вашего сообщения</label><br>
+            <input id="messegeInput" name="messegeInput" type="text">
+        </div>
+        <div class="item5">
+            <label for="codeInput">Введите текст с картинки</label>
+            <input id="codeInput" type="text" name="codeInput" required>
+        </div>
+        <div class="item6">
+            <img class="codeImg" src="https://zenno.club/discussion/attachments/144-jpg.11110/">
+            <button type="submit">отправить</button>
+        </div>
+    </div>
+
+    <button onclick="changeStyle()" id="myButton">Изменить стиль</button>
+
+    <script>
+        const button = document.getElementById('myButton');
+        button.addEventListener('click', function() {
+            button.remove(); // Удаляем кнопку при щелчке
+        });
+    </script>
+</body>
+</html>

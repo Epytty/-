@@ -1,0 +1,278 @@
+   @import url('fontView.css');
+   
+   @font-face {
+    font-family: 'KanitRegular';
+    src: url('fonts/Kanit-Regular.ttf');
+    }
+
+    @font-face {
+    font-family: 'KanitMedium';
+    src: url('fonts/Kanit-Medium.ttf');
+    }
+
+    .h1Header{
+        font-family: 'Kanit', sans-serif;
+        position: absolute;
+        font-size: 55px;
+        color: white;
+        border-radius: 1px;
+    }
+
+    .mainInfo {
+        display: flex;
+        margin-left: 25%;
+        margin-top: 5%;
+        color: #1c1d50;
+    }
+
+    .h2 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 35px;
+        margin-left: 30%;
+    }
+
+    .line {
+        background-color: #1c1d50;
+    }
+
+    .image {
+        border: 5px solid #1c1d50;
+        border-radius: 50%;
+        margin-top: 100px;
+        display: flex;
+        width: 300px;
+    }
+    
+    .information {
+        justify-content: flex-start;
+        font-family: 'Kanit-Medium', sans-serif;
+        font-size: 18px;
+        margin-left: 60px;
+    }
+
+    .infoList {
+        display: inline-flex;
+        margin-left: 15%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .git {
+        font-size: 0px;
+        text-decoration: none;
+    }
+
+    .git:before {
+        font-family: FontAwesome; 
+        content: '\f09b'; 
+        font-size: 50px;
+        color: #1c1d50;
+        margin-right: 100px;
+    }
+
+    .vk {
+        font-size: 0px;
+        text-decoration: none;
+    }
+
+    .vk:before {
+        font-family: FontAwesome; 
+        content: '\f189'; 
+        font-size: 50px;
+        color: #1c1d50;
+        margin-right: 100px;
+    }
+
+    .yt {
+        font-size: 0px;
+        text-decoration: none;
+    }
+
+    .yt:before {
+        font-family: FontAwesome;
+        content: '\f167'; 
+        font-size: 50px;
+        color: #1c1d50;
+        margin-right: 100px;
+    }
+
+    .line {
+        border: 5px solid #1c1d50;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: relative;
+    }
+
+    .h1Line {
+        font-family: 'Kanit', sans-serif;
+        position: absolute;
+        transform: translate(-25%, -75%);
+        top: 53%;
+        left: 30%;
+        font-size: 40px;
+        color: #1c1d50;
+        background-color: white;
+        padding: 0.2em 0.4em;   
+    }
+
+    .resume {
+        margin-top: 3%;
+        display: inline-block;
+    }
+
+    .taska {
+        display: inline-block;
+    }
+
+    .taskaLogo {
+        height: 450px;
+        margin-left: 23%;
+        float: left;
+        position: absolute;
+    }
+
+    .taskaContent {
+        margin-left: 40%;
+        max-width: 40%;
+    }
+
+    .taskaH1 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 40px;
+        color: #1c1d50;
+        float:right;
+    }
+
+    .taskaInfo {
+        font-family: 'Kanit-Medium', sans-serif;
+        font-size: 25px;
+        color:#1c1d50;
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .taskaVideo {
+        margin-top: 8%;
+        margin-left: 30%;
+        width: 800px;
+        border: 10px solid #1c1d50;
+        border-radius: 2%;
+    }
+
+    .aboutMeLine {
+        border: 5px solid #1c1d50;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: relative;
+    }
+
+    .aboutMeH1 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 40px;
+        color: #1c1d50;
+        transform: translate(80%, -100%);
+        margin-left: 20%;
+        float: left;
+        background-color: white;
+        padding: 0.2em 0.4em;
+    }
+
+    #el1 {
+        font-family: 'Kanit-Medium', sans-serif;
+        font-size: 25px;
+        color:#1c1d50;
+        text-align: right;
+        margin-top: 5%;
+        margin-right: 20%;
+    }
+
+    #el2 {
+        font-family: 'Kanit-Medium', sans-serif;
+        font-size: 25px;
+        color:#1c1d50;
+        text-align: left;
+        margin-left: 20%;
+    }
+
+    #el3 {
+        font-family: 'Kanit-Medium', sans-serif;
+        font-size: 25px;
+        color:#1c1d50;
+        text-align: right;
+        margin-right: 20%;
+    }
+
+    .music {
+        margin-left: 35%;
+        width: 550px;
+        border-radius: 3%;
+    }
+
+    .samplesLine {
+        border: 5px solid #1c1d50;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: relative;
+    }
+
+    .samplesH1 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 40px;
+        color: #1c1d50;
+        transform: translate(90%, -100%);
+        margin-left: 20%;
+        float: left;
+        background-color: white;
+        padding: 0.2em 0.4em;
+    }
+
+    .tableSamples {
+        margin-left: 20%;
+        max-width: 700px;
+        border-spacing: 30px;
+        background-color: #ccd1da;
+        border-radius: 3%;
+    }
+
+    .tdContent {
+        text-align: center;
+        max-width: 550px;
+        max-height: 550px;
+        font-family: 'Kanit-Medium', sans-serif;
+        font-size: 40px;
+        color:#1c1d50;
+    }
+
+    .analogPhoto {
+        width: 500px;
+        border-radius: 3%;
+    }
+
+    .animVideo {
+        width: 550px;
+        border-radius: 3%;
+    }
+
+    .cifrPhoto {
+        width: 550px;
+        border-radius: 3%;
+    }
+
+    .samples {
+        margin-right: 9%;
+    }
+
+    .labs {
+        display: flex;
+        width: 50%;
+        margin-left: 20%;
+        gap: 10%;
+        white-space: nowrap;
+        justify-content: center;
+    }

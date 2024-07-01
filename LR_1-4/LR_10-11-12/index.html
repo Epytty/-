@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <!-- Задание 1 -->
+    <script>
+        function hourNow() {
+            let date = new Date();
+        let hour = date.getHours();
+        alert("Сейчас " + hour + " часов")
+        }
+    </script>
+</head>
+<body style="display: flex; flex-direction: column;">
+    <button onclick="hourNow()">Показать год</button>
+
+    <!-- Задание 2 -->
+    <script>
+        let name = "Даниил Тарима ";
+        let n = 18;
+        for (var i = 1; i <= (n+5); i++) {
+            document.write(name + "<br>");
+        }
+    </script>
+
+    <!-- Задание 3 -->
+    <script>
+        let numbers = [-9, -7, -3, -1, 2, 4, 8, 9];
+        document.write("<br>Исходный массив: " + numbers.join(", "));
+
+        let productOfOdds = 1;
+        for (const num of numbers) {
+            if (num % 2 !== 0) {
+                productOfOdds *= num;
+            }
+        }
+
+        const maxElement = Math.max(...numbers);
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] < 0) {
+                numbers[i] = maxElement;
+            }
+        }
+
+        document.write("<br>Измененный массив: " + numbers.join(", "));
+        document.write("<br>Произведение нечетных элементов: " + productOfOdds);
+    </script>
+
+    <!-- Задание 4 -->
+    <div id="result"></div>
+
+    <!-- Задание 5 -->
+    <script>
+        let s1 = "ТАРИМА";
+        let s2 = "СУВОРОВА 254/1"
+
+        document.write("<br>", s2.length);
+        document.write("<br>", s1 + s2);
+        document.write("<br>", s2.toLowerCase())
+    </script>
+</body>
+</html>

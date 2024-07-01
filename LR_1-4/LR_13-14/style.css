@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.favImg {
+    width: 450px;
+}
+
+.formContainer {
+    width: 650px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 5% 5% 5%;
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613324561_41-p-krasno-sinii-fon-abstraktsiya-66.jpg");
+    color: white;
+}
+
+.formContainer input {
+    height: 20px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+#messegeInput {
+    height: 200px;
+    width: 645px;
+}
+
+.item1, .item2, .item3, .item5 {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+#codeInput {
+    width: 250px;
+}
+
+.item6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item6 button {
+    width: 255px;
+    border-radius: 10px;
+    font-size: 30px;
+}

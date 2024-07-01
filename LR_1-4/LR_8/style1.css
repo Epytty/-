@@ -1,0 +1,124 @@
+.infoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#h1 {
+    font-size: 35px;
+    text-align: left;
+    margin: 0% 0% 1% 3%; 
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.f1 {
+    width: 30%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 85%;
+    padding: 3% 5% 6% 5%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+input, select {
+    width: 400px;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 1px solid transparent;
+}
+
+select:focus {
+    outline: 1px solid transparent;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 35px;
+    white-space: nowrap;
+    justify-content: flex-end;
+    gap: 5%;
+}
+
+#item6 {
+    margin-bottom: 0px;
+}
+
+#item7 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px 35px 200px;
+    align-items: center;
+    color: #ccc;
+}
+
+#postCheckBox {
+    width: 20px;
+    color: #ccc;
+}
+
+input:checked {
+    width: 500px;
+}
+
+#phone3:focus {
+    background: yellow; 
+}
+
+#item8 {
+    gap: 3%;
+}
+
+#phone1 {
+    width: 10%;
+}
+
+#phone2 {
+    width: 23%;
+}
+
+#phone3 {
+    width: 25%;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    width: 20%;
+    height: 45px;
+    border: none;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+}
+
+button[type="reset"] {
+    width: 20%;
+    height: 45px;
+    font-weight: bold;
+    color: darkgray;
+    font-size: 28px;
+}
